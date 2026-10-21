@@ -1,0 +1,5 @@
+# TechPuls: sve stranice su javne i smiju se indeksirati
+User-agent: *
+Allow: /
+
+Sitemap: https://zg2000fs.github.io/techpuls/sitemap.xml
