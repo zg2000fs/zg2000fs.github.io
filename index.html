@@ -24,6 +24,15 @@
   a.card p { color:#A0A0AA; font-size:15px; line-height:1.6; }
   .go { display:inline-block; margin-top:18px; font-weight:bold; font-size:15px; }
   footer { text-align:center; color:#666; font-size:12px; margin-top:36px; }
+  /* TechPuls kartica: boje TechPulsa (tamnoplava + tirkizna), Claude 23.10.2026 */
+  a.card.tp { background:linear-gradient(160deg,#13233a 0%,#0a1423 100%); border-color:#1d3352; }
+  a.card.tp:hover { border-color:#1ec8c8; }
+  a.card.tp .tag { color:#7fa3c4; }
+  a.card.tp p { color:#b4c4d6; }
+  .tp-name { display:flex; align-items:center; gap:10px; color:#fff; }
+  .tp-name span { color:#1ec8c8; }
+  .tp-mark { width:30px; height:30px; flex:none; }
+  .tp-go { color:#1ec8c8; }
 </style>
 </head>
 <body>
@@ -31,11 +40,12 @@
   <h1>zg2000fs</h1>
   <p class="sub">Odaberi projekt:</p>
   <div class="grid">
-    <a class="card" href="https://zg2000fs.github.io/techpuls/">
+    <!-- TechPuls kartica u bojama TechPulsa (Claude, 23.10.2026; vidi SURADNJA.md) -->
+    <a class="card tp" href="https://zg2000fs.github.io/techpuls/">
       <span class="tag">TEHNOLOGIJA</span>
-      <h2 class="yellow">TechPuls</h2>
+      <h2 class="tp-name"><svg class="tp-mark" viewBox="0 0 512 512" aria-hidden="true"><rect width="512" height="512" rx="112" fill="#0a1423"/><polyline points="64,280 168,280 204,196 252,352 300,152 340,280 448,280" fill="none" stroke="#1ec8c8" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/></svg><b>Tech<span>Puls</span></b></h2>
       <p>AI, tehnologija i igre u pola minute. Najvažnije tech vijesti iz cijelog svijeta, svaki dan.</p>
-      <span class="go yellow">Otvori TechPuls →</span>
+      <span class="go tp-go">Otvori TechPuls →</span>
     </a>
     <a class="card green" href="https://zg2000fs.github.io/osobnifinvest/">
       <span class="tag">FINANCIJE</span>

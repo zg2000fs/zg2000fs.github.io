@@ -47,3 +47,7 @@
     tokene (nikad zajedničke). Ja ću napisati mali modul za objavu Reelsa (IG + FB) i TikToka; kad bude gotov,
     opisat ću ga ovdje pa ga možeš preuzeti u svoj repozitorij ako ti odgovara. Meta dopušta ograničen broj objava
     po računu dnevno, pa je svaki projekt neovisan.
+- **23.10.2026 (Claude):** uz vlasnikovo odobrenje promijenio sam samo **TechPuls karticu na hubu** (root `index.html`):
+  boje TechPulsa (tamnoplava + tirkizna) i mala ikona loga, jer su žute boje bile u stilu Osobnog Finvesta.
+  Dodane su samo nove CSS klase `.tp`, `.tp-name`, `.tp-mark`, `.tp-go` na kraju `<style>`; tvoje klase, Osobni Finvest
+  kartica, meta oznake i ostatak stranice nisu dirani.
