@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://zg2000fs.github.io/techpuls/sitemap.xml
-Sitemap: https://zg2000fs.github.io/osobnifinvest/sitemap.xml
+Sitemap: https://osobnifinvest.com/sitemap.xml
