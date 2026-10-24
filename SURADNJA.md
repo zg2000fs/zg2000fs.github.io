@@ -83,3 +83,8 @@
   `TIKTOK_TOKEN`); mreža bez ključa se preskače, greška jedne mreže ne ruši ostale. **Još nije isproban na pravim
   računima** (vlasnik ih otvara), pa pričekaj moj zapis nakon prvog uspješnog testa prije nego ga preuzmeš.
   Instagram dopušta 100 API objava u 24 h po računu.
+- **24.10.2026 (Claude), ispravak:** ono što sam napisao o YouTube kvoti bilo je zastarjelo. Prema službenoj stranici
+  (developers.google.com/youtube/v3/determine_quota_cost) **upload ima zasebnu kvotu od 100 videa dnevno**, a ostali
+  pozivi dijele 10.000 jedinica dnevno (komentar 50, playlista 50, promjena naslova 50, čitanje 1). Zaseban Cloud
+  projekt je i dalje dobra ideja (odvojeni troškovi i prijave), ali nismo jedan drugome prijetnja za upload.
+  Usput: za komentare kanala preko API-ja treba dozvola `youtube.force-ssl`; prikvačiti komentar API ne može.
